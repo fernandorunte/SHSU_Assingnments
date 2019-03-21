@@ -1,0 +1,25 @@
+fern@fern-virtual-machine:~/filelinux$ ./lab7
+Recieved data: Environment adjusted.
+Processing time elapsed: 3 seconds.
+
+Fri Apr 28 06:34:54 2017
+
+
+Recieved data: Air levels have adjusted.
+Processing time elapsed: 5 seconds.
+
+Fri Apr 28 06:35:02 2017
+
+
+fern@fern-virtual-machine:~/filelinux$ ./lab7
+Recieved data: Environment adjusted.
+Processing time elapsed: 3 seconds.
+
+Fri Apr 28 06:35:23 2017
+
+
+Recieved data: Air levels have adjusted.
+Processing time elapsed: 5 seconds.
+
+Fri Apr 28 06:35:35 2017
+

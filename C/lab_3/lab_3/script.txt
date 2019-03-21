@@ -1,0 +1,8 @@
+#Script to build executable "testlib.exe" and library "libMymathlib.a"
+
+cat buildScript
+gcc -c -Wall mymathlib.c -lm
+gcc -c -Wall driver.c -lm
+ar -cru libMymathlib.a mymathlib.o 
+ar -s libMymathlib.a
+gcc -o testlib driver.c -L. -lMymathlib

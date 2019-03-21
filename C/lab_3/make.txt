@@ -1,0 +1,10 @@
+#This is the make facility. It will create the excutable "testlib2.exe" and the shared library "Mymathlib2.so".
+
+cat Makefile
+testmake: driver.c mymathlib.c
+	gcc -fPIC -c mymathlib.c -lm
+	gcc -fPIC -c driver.c -lm
+	gcc -shared -o libMymathlib2.so mymathlib.o
+	gcc -o testLib2 driver.c -L. -lMymathlib2
+	export LD_LIBRARY_PATH=./
+
